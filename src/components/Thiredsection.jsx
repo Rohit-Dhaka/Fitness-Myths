@@ -7,7 +7,7 @@ const Thiredsection = () => {
     return (
         <section className='background-black position-relative -mt-1'>
             <div className=" position-absolute  Group1">
-                <img src={Group1} alt="" />
+                <img src={Group1} alt="group" />
             </div>
             <Container  className='max-w-1147'>
                 <Row className='pb-lg-168 pb-sm-100 pb-60 align-items-center'>
@@ -15,7 +15,7 @@ const Thiredsection = () => {
                         
                             <div className="Ellipse2 position-absolute  z-n1 "></div>
                         
-                        <img src={Laptop} alt="" className=' w-100  max-w-530' />
+                        <img src={Laptop} alt="laptop" className=' w-100  max-w-530' />
                     </div>
                     <div className="col-md-6 col-12 d-flex justify-content-md-end justify-content-center pt-sm-5 pt-4 pt-lg-0">
                         <div className="d-flex  flex-column ">
@@ -29,7 +29,10 @@ const Thiredsection = () => {
                                 </div>
                             </form>
                             <div className="pt-5 d-flex justify-content-md-start justify-content-center">
-                            <div className='border-yellow  d-inline-block '><button className='Get-in-btn text-black font-Eurostile fw-bold fs-14 lh-14 border-0'>Send It Here!</button></div>
+                            <div className='border-yellow  d-inline-block  position-relative'>
+                                <button className='Get-in-btn text-black font-Eurostile fw-bold fs-14 lh-14 '>Send It Here!</button>
+                                <div className="black-line position-absolute"></div>
+                                </div>
                             </div>
                         
                         </div>

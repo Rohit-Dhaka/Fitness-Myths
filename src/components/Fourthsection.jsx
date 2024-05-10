@@ -12,7 +12,7 @@ const Fourthsection = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 d-flex justify-content-lg-end justify-content-center">
                     <div className="eBook">
-                    <img src={Eebook} alt="" className='w-100 ' />
+                    <img src={Eebook} alt="ebook" className='w-100 ' />
 
                     </div>
                 </div>
